@@ -61,11 +61,19 @@ results you observe.
 the exchange amounts for the following inputs:
 
   a) $250.25
+The Exchange Tax=25.02
+The great britian pound=88.96
+The Japenese yen=14375
 
   b) $1,000.52
+The Exchange Tax=0.10       
+The great britian pound=0.36
+The Japenese yen=57
 
   c) $968,410.12
-
+The Exchange Tax=96.80
+The great britian pound=344.12
+The Japenese yen=55604
 
 
 6. Suppose that you had used only `int` types
@@ -73,19 +81,25 @@ in your conversion program.  Would you be able
 to use it to convert the US national debt
 (which as of 2020 was \$26,009,754,625,487)?
 Why or why not?
-
-
+No, because int cant store such a large value.
 
 
 7. Mixed types
 
 a) Run the `area` program with 3 and 4 as inputs.  
 What value do you get?  Is this result correct?
-
+Please enter the base of a triangle: 3
+Please enter the height of a triangle: 4
+The area is 0.000000 square units.  
+the result is incorrect.
 
 b) Execute the program again with inputs 3 and 5.
 Does the program give correct results?  Why not?
-
+Please enter the base of a triangle: 3
+Please enter the height of a triangle: 5
+The area is 0.000000 square units.  
+answer is incorrect.
 
 c) Fix the program by editing the `area.c` source
 code so that the program produces correct results.
+By changing 1/2 to 0.5 this gives correct answer.
