@@ -10,14 +10,18 @@ Name(s) and Login(s):
 was born on September 9th, 1941.  If he were still alive,
 how old would he be today?  Find out by running the `birthday`
 program on the appropriate inputs and enter your solution here.
-
+Today is 2023/10/22
+Your birthday was 2016/09/09
+Hello, dennis.  You are 7 years, 6 weeks, and 0 days old today
 
 
 
 2. Bjarne Stroustrup, the creator of the C++ programming
 language, the object-oriented extension of C, was born on
 December 30th, 1950.  How old is he today?
-
+Today is 2023/10/22
+Your birthday was 2014/12/30
+Hello, bjarne.  You are 8 years, 42 weeks, and 2 days old today
 
 
 
@@ -37,19 +41,19 @@ results you observe.
   size: 1 byte
   range: -128 to 127
 * `short int`
-  size:
-  range:
+  size:2 bytes
+  range:-32768 to32768.
 * `int`
-  size:
-  range:
+  size:4 bytes
+  range:-2147483648 to 2147483648
 * `long int`
-  size:
-  range:
+  size:4 bytes
+  range:-2147483648 to 2147483648
 * `float`
-  size:
+  size:4 bytes
   range: 7 digits of accuracy
 * `double`
-  size:
+  size:8 bytes
   range: 15 digits of accuracy
 
 
